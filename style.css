@@ -1,3 +1,10 @@
+body {
+    margin-left:0px;
+    margin-right:0px;
+    margin-top:0px;
+    font-family: arial, sans-serif;
+}
+
 #logo {
     /* border: 1px solid black; */
     display: block;
@@ -61,8 +68,6 @@ path {
     font: 16px arial,sans-serif;
 }
 
-
-
 #buttonbox
 {
     /*border: 1px solid black;*/
@@ -72,7 +77,7 @@ path {
     padding: 18px 0px 0px;
 }
 
-button {
+#submitbutton {
     height: 36px;
     padding: 0px 16px;
     margin: 11px 4px;
@@ -81,9 +86,67 @@ button {
     border: 1px solid #f2f2f2;
 }
 
-button:hover{
+#submitbutton:hover{
     box-shadow: 0 1px 1px rgba(0,0,0,0.1);
     background-color: #f8f8f8;
     border: 1px solid #c6c6c6;
     color: #222;
+}
+
+#signinbutton {
+        padding: 0px 12px;
+        height: 30px;
+        background-color: rgb(66, 133, 244);
+        border: 0px;
+        border-radius: 2px;
+        font-weight: 700;
+        color: rgb(255,255,255);
+        
+}
+
+#apps
+{
+    display:inline-block;
+    width:16px; height:30px;
+    background: url("appsoff.png") no-repeat;
+    background-position: bottom center;
+}
+
+#apps:hover {
+    background: url("appson.png") no-repeat;
+    background-position: bottom center;
+}
+
+#noapps
+{
+    display:inline-block;
+    width:16px; height:30px;
+}
+
+ul {
+    margin-left:0px;
+    padding-left:0px;
+}
+li {
+    display: inline;
+  }
+
+#leftlink
+{
+    padding: 0px 0px 0px 15px;
+}
+#rightlink
+{
+    padding: 0px 15px 0px 0px;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+}
+#leftnav
+{
+    /*flex-grow: 1;*/}
+#rightnav
+{
+    padding: 0px 30px;
 }
