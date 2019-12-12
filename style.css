@@ -1,0 +1,89 @@
+#logo {
+    /* border: 1px solid black; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    margin-bottom: 27px;
+    width: 272px;
+}
+
+#outerbox {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #dfe1e5;
+    width: 584px;
+    height: 46px;
+    border-radius: 24px;
+}
+
+#outerbox:hover {
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(223,225,229,0);
+}
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
+svg {
+    /*border: 0px solid black;*/
+    height: 20px;
+    width: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 14px;
+    margin-right: 13px;
+}
+
+path {
+    fill: #9AA0A6;
+}
+
+#mic{
+    /*border: 1px solid black;*/
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 8px;
+    margin-right: auto;
+}
+
+#searchbox {
+    display: flex;
+    border: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 487px;
+    height:34px;
+    font: 16px arial,sans-serif;
+}
+
+
+
+#buttonbox
+{
+    /*border: 1px solid black;*/
+    width: 571px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 18px 0px 0px;
+}
+
+button {
+    height: 36px;
+    padding: 0px 16px;
+    margin: 11px 4px;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+}
+
+button:hover{
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    background-color: #f8f8f8;
+    border: 1px solid #c6c6c6;
+    color: #222;
+}
