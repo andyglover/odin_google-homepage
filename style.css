@@ -65,7 +65,7 @@ path {
     margin-bottom: 5px;
     width: 487px;
     height:34px;
-    font: 16px arial,sans-serif;
+    font-size: 16px;
 }
 
 #buttonbox
@@ -140,6 +140,7 @@ li {
     padding: 0px 15px 0px 0px;
 }
 #navbar{
+    font-size: 13px;
     display: flex;
     justify-content: space-between;
 }
@@ -150,3 +151,20 @@ li {
 {
     padding: 0px 30px;
 }
+
+#footer {
+    position:fixed;
+    bottom:0px;
+    width: 100%;
+}
+
+#footeralign{
+    display: flex;
+    justify-content: space-between;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    font-size: 14px;
+}
+
+#leftfooter {}
+#rightfooter {}
